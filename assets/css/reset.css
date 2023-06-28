@@ -1,0 +1,41 @@
+html, body, div, span, h1, h2, h3, p,
+a, address, em, img, small, strong,
+i, ul, li, fieldset, form, label, legend,
+article, aside, footer, header, 
+nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  color: inherit;
+}
+article, aside, footer, header, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+input, button, select {
+  border: 0;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+}
+input:focus, button:focus, select:focus {
+	outline: none;
+}
+button {
+	cursor: pointer;
+}

@@ -1,0 +1,99 @@
+body {
+  font-size: 14px;
+  line-height: 16px;
+  color: #202020;
+  font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  letter-spacing: -0.67px;
+}
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+}
+strong {
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+}
+
+
+
+.header .search_area form .btn-search .ico-search::before,
+.header .search_area .search-key .btn-keyboard::before,
+.header .search_area .search-key .btn-arrow::before,
+.header .shortcut_area .shortcut-list .shortcut-item .icon-service::before,
+.header .shortcut_area .shortcut-list .shortcut-item .type-mail::after,
+.header .shortcut_area .shortcut-list .shortcut-item .type-cafe::after,
+.header .shortcut_area .shortcut-list .shortcut-item .type-blog::after,
+.header .shortcut_area .shortcut-list .shortcut-item .type-shopping::after,
+.header .shortcut_area .shortcut-list .shortcut-item .type-news::after,
+.header .shortcut_area .shortcut-list .shortcut-item .type-finance::after,
+.header .shortcut_area .shortcut-list .shortcut-item .type-estate::after,
+.header .shortcut_area .shortcut-list .shortcut-item .type-map::after,
+.header .shortcut_area .shortcut-list .shortcut-item .type-webtoon::after,
+.header .shortcut_area .shortcut-list .shortcut-item .type-more::after,
+.header .menu_area .btn-menu::after,
+.header .pay_area a::after,
+.header .notify_area .btn-notify::after,
+.footer .notice_sec .link-serviceAll::after,
+.sc-news .group-issue .ico-triangle,
+.group-page .btn-view-list::before,
+.group-page .btn-view-thumb::before,
+.group-page .btn-prev::before,
+.group-page .btn-next::before,
+.sc-login .logo-naver,
+.sc-weather .group-title .compare::before,
+.sc-finance .group-title .btn-info::before,
+.sc-finance .group-title .btn-refresh::before,
+.sc-finance .group-info .ico-status,
+.sc-finance .group-title .btn-refresh:hover::before,
+.sc-finance .info-box .ico-status,
+.sc-finance .info-box .stock-popular::after,
+.sc-widget .link-papago::before,
+.sc-widget .icon-papago,
+.sc-widget .link-search::before,
+.sc-widget .now-top::before,
+.sc-widget .more-text::before,
+.sc-widget .more-text::after,
+.sc-banner-bt .ico-bn,
+.setting_module .btn-top::before,
+.setting_module .btn-setting::before
+{
+  background-image: url(../img/sp_main.png);
+  background-size: 422px 405px;
+  background-repeat: no-repeat;
+}
+
+.group-commerce .group-quickmenu .menu-item .icon-shhome::before,
+.group-commerce .group-quickmenu .menu-item .icon-order::before,
+.group-commerce .group-quickmenu .menu-item .icon-basket::before
+{
+  background-image: url(../img/sp_icon.png);
+  background-size: 122px 106px;
+  background-repeat: no-repeat;
+}
+
+.sc-weather .forecast-box .icon-sky::before,
+.sc-weather .forecast-box .weather-item .cloud::before,
+.sc-weather .forecast-box .weather-item .nocloud::before {
+  background-image: url(../img/sp_weather.png);
+  background-size: 641px 587px;
+  background-repeat: no-repeat;
+}
+
+
+
+.thumb-box {
+  background-color: #fff;
+  position: relative;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0,0,0,.04);
+  box-shadow: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0,0,0,.04);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 16px;
+}
